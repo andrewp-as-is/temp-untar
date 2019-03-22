@@ -1,0 +1,13 @@
+{
+  "name": "temp-untar",
+  "version": "2019.03.22",
+  "description": "unpack tar archive to a temp directory",
+  "keywords": [
+    "tar"
+  ],
+  "homepage": "https://github.com/looking-for-a-job/temp-untar",
+  "license": "Unlicense",
+  "bin": {
+    "temp-untar": "./scripts/temp-untar"
+  }
+}
