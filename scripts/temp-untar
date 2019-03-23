@@ -12,9 +12,14 @@ EOF
 
 [[ $# != 1 ]] && usage
 
+[[ "$1" == *"://"* ]] && {
+    output="$(mktemp)" || exit
+    curl -fs -o "$output" "$1" || exit
+    set -- "$output"
+}
 ! [ -e "$1" ] && echo "ERROR: $1 NOT EXISTS" && exit 1
-
 path="$(mktemp -d)" || exit
 cd "$path" || exit
+tar -xzf "$1" 1> /dev/null || exit
 echo "$path"
-tar -xzf "$1" 1> /dev/null
+open -R "$path"
