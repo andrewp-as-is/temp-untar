@@ -22,4 +22,3 @@ path="$(mktemp -d)" || exit
 cd "$path" || exit
 tar -xzf "$1" 1> /dev/null || exit
 echo "$path"
-open -R "$path"
