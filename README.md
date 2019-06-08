@@ -1,7 +1,9 @@
 <!--
 https://pypi.org/project/readme-generator/
+https://pypi.org/project/python-readme-generator/
 -->
 
+[![](https://img.shields.io/badge/OS-Unix-blue.svg?longCache=True)]()
 [![](https://img.shields.io/pypi/v/temp-untar.svg?maxAge=3600)](https://pypi.org/project/temp-untar/)
 [![](https://img.shields.io/npm/v/temp-untar.svg?maxAge=3600)](https://www.npmjs.com/package/temp-untar)
 [![Travis](https://api.travis-ci.org/looking-for-a-job/temp-untar.svg?branch=master)](https://travis-ci.org/looking-for-a-job/temp-untar/)
@@ -14,7 +16,7 @@ $ [sudo] npm i -g temp-untar
 $ [sudo] pip install temp-untar
 ```
 
-#### CLI
+#### Scripts usage
 ```bash
 usage: temp-untar path
 ```
@@ -26,5 +28,5 @@ $ temp-untar file.tar.gz
 ```
 
 <p align="center">
-    <a href="https://pypi.org/project/readme-generator/">readme-generator</a>
+    <a href="https://pypi.org/project/python-readme-generator/">python-readme-generator</a>
 </p>

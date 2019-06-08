@@ -1,6 +1,6 @@
 {
   "name": "temp-untar",
-  "version": "2019.3.22",
+  "version": "2019.4.13",
   "description": "unpack tar archive to a temp directory",
   "keywords": [
     "tar"
