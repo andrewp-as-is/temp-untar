@@ -1,24 +1,21 @@
 <!--
-https://pypi.org/project/readme-generator/
-https://pypi.org/project/python-readme-generator/
+https://readme42.com
 -->
+
+
 
 [![](https://img.shields.io/badge/OS-Unix-blue.svg?longCache=True)]()
 [![](https://img.shields.io/pypi/v/temp-untar.svg?maxAge=3600)](https://pypi.org/project/temp-untar/)
-[![](https://img.shields.io/npm/v/temp-untar.svg?maxAge=3600)](https://www.npmjs.com/package/temp-untar)
-[![Travis](https://api.travis-ci.org/looking-for-a-job/temp-untar.svg?branch=master)](https://travis-ci.org/looking-for-a-job/temp-untar/)
+[![](https://img.shields.io/npm/v/temp-untar.svg?maxAge=3600)](https://www.npmjs.com/package/temp-untar)[![](https://img.shields.io/badge/License-Unlicense-blue.svg?longCache=True)](https://unlicense.org/)
+[![](https://github.com/andrewp-as-is/temp-untar/workflows/tests42/badge.svg)](https://github.com/andrewp-as-is/temp-untar/actions)
 
-#### Installation
-```bash
-$ [sudo] npm i -g temp-untar
-```
+### Installation
 ```bash
 $ [sudo] pip install temp-untar
 ```
 
-#### Scripts usage
 ```bash
-usage: temp-untar path
+$ [sudo] npm i -g temp-untar
 ```
 
 #### Examples
@@ -28,5 +25,5 @@ $ temp-untar file.tar.gz
 ```
 
 <p align="center">
-    <a href="https://pypi.org/project/python-readme-generator/">python-readme-generator</a>
+    <a href="https://readme42.com/">readme42.com</a>
 </p>
